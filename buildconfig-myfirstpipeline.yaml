@@ -11,7 +11,7 @@ spec:
     -
       type: GitHub
       github:
-        secret: secret101 
+        secret: secret101
     -
       type: Generic
       generic:
