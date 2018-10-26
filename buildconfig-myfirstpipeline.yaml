@@ -1,7 +1,7 @@
 apiVersion: v1
 Kind: BuildConfig
 metadata:
-  name myfirstpipeline
+  name: myfirstpipeline
   labels:
     name: myfirstpipeline
   annotations:
