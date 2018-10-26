@@ -22,7 +22,7 @@ spec:
   Strategy:
     type: JenkinksPipeline
     jenkinsPipelineStrategy:
-      jenkinsfile: "node('maven') {\nstage 'build'\nopenshiftBuild(buildConfig: 'myphp', showBuildLogs: 'True')\nstage 'deploy'\nopenshiftDeploy(deploymentConfig: 'myphp')\nopenshiftScale(deploymentConfig: 'myphp', replicaCount: '2')
+      jenkinsfile: "node('maven') {\nstage 'build'\nopenshiftBuild(buildConfig: 'myphp', showBuildLogs: 'True')\nstage 'deploy'\nopenshiftDeploy(deploymentConfig: 'myphp')\nopenshiftScale(deploymentConfig: 'myphp', replicaCount: '2')}"
   output:
   resources:
   postCommit:
